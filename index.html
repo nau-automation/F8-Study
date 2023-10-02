@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>F8-shop</title>
+        <meta charset="utf-8"> <!--utf-8 kieu tieng viet--> 
+        <link rel="stylesheet" href="main.css"> <!--khi file main.css cùng cấp nằm trong 1 filr thì có thể gọi thẳng hàm chưa css-->
+        <!--
+         <style>
+         h1 { color: blue;font-size:50px}
+        </style> css kiểu trong (internal)
+        xét đến sự ưu tiên trong css: !(imporment)>lớn nhất, inline(style trong thẻ):1000đ, #id: 100đ, .class:10, thẻ: 1đ
+            - cùng cấp ưu tiên thì css sau là đc dùng-->
+      </head>
+     <body>
+      <div>
+        <h1>
+         link kien dien tu nauauto h1 thẻ h là (heading) tiêu đề, đến h6 theo thứ tự chữ lớn đến nhỏ
+        </h1>
+        <input id="inputtext" type="text"> <!--khung chữ để nhập hạng text-->
+        <input class="sticker" type="checkbox"> <!--khung hình vuông nhấn dấu tích-->
+        <input class="sticker" type="radio"><!--khung hình tron nhấn dấu tích-->
+        <!--<button style="color:red;font-size:20px;border-color:red;background-color:white"> mua hàng </button> nút nhâsn--> <!-- css kiểu inline: đặt trong thẻ -->
+        <button> mua hàng </button> <!-- nút nhâsn--> <!-- css kiểu inline: đặt trong thẻ -->
+        <p> cac mat hang linh kien vi mach dieu khien od china</p> <!--thẻ P là (paragraph) đoạn văn-->
+        <img src="https://bizweb.dktcdn.net/100/048/138/files/xh-a232-2-3.jpg?v=1578129820065" width="100px" title=" Mạch công suất " alt="ảnh mạch công suất 12v"> <!--thẻ img là (image) ảnh, src (srouce) nguồn ảnh, alt là chữ miêu tả ảnh khi ảnh lỗi-->
+        <a href="https://shopee.vn/cart">Den gio hang cua ban</a> <!--thẻ a là anchor(cái nêu) liên kết link của web sang thẻ a khi nhấn vào đặt link trong href"", tên muốn đặt cho đường liên kết đến"-->
+        <ol> <!--ul là (unordered list) tạo list--> <!-- có thể đổi ul=ol để hiện thị stt-->
+         <li id="row1">vi mạch</li> <!--li là (list item) các thẻ nằm trong ul, có thể tạo số thẻ nhanh li*xx-->
+         <li id="row2">mạch công suất</li>
+         <li id="row3">module khác</li>
+        </ol>
+        <table> <!--thẻ bảng gồm phần đầu thead(table head), phần thân tbody(table body) -->
+         <thead> <!--thẻ phần đầu -->
+            <th>stt</th><!--table head: cột trong bảng -->
+            <th>chuẩn loại</th>
+            <th>giá</th>
+         </thead>
+         <tbody> <!--table body : thân bảng chứa các dòng-->
+            <tr> <!--table row : một hàng-->
+               <td>1</td> <!--mỗi thẻ td tương ứng cột trong thẻ th -->
+               <td> họ ic 8051</td>
+               <td> thời giá</td>
+            </tr>
+            <tr> <!--hàng 2-->
+               <td>2</td>
+               <td> module Arduino</td>
+               <td>150đ-250đ</td>
+            </tr>
+         </tbody>
+        </table>
+      </div>
+      <!-- attribute: thêm thuật tính trong thẻ-->
+      <img src="https://th.bing.com/th/id/OIP.3NhIq2M2yqmz3HnqI7Wd8gHaFN?pid=ImgDet&rs=1" title="Arduino Uno R3" width="100px" alt="ảnh Arduino uno R3"> <!-- thêm thuật tính title vào thẻ img-->
+     </body>
+</html>
