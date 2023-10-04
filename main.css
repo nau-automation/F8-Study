@@ -20,6 +20,9 @@ table{
 p{
     color: red;
 }
-#row1{color: green;}
-#row2{color:blue;}
-#row3{color:black;}
+#row1{color: val(text-color);}
+#row2{color: val(--text-color);}
+#row3{color: val(text-color);}
+:roof{
+    --text-color: red;
+}
