@@ -1,28 +1,45 @@
 h1 {
-    color: blue;font-size: 50px;
+    color: blue;
+    font-size: 20%;
 }
+  
 button {
-    background-color: brown;font-size: 20px;border-bottom: 20px;border-color: white;color: white
+    background-color: brown;font-size: 20%;border-bottom: 20px;border-color: white;color: white
 }
 #inputtext{
     color: black;background-color: pink;
+    width: 12vw; /*vw: viewport width, lay theo web trinh duyet */
+    height: 12vh;/*vh: viewport height, lay thao web trinh duyet*/
 }
 .sticker{
     border-color: red;
-    border: 100px; 
+    size: 50%; /*px: diem anh, co kisch thuoc co dinh khong thay doi khi thay doi kich giao dien*/
     background-color:pink;
     color: red;
 }
 table{
-    border-radius: 20px;
-    border-color: black;
+    color: blue;
+    font-size: 50%;
 }
 p{
     color: red;
+    font-size: 50%;
 }
 #row1{color: val(text-color);}
-#row2{color: val(--text-color);}
+#row2{color: val(text-color);}
 #row3{color: val(text-color);}
 :roof{
     --text-color: red;
+}
+ html{
+    font-size: 100px;
+} 
+/* #jmgpowerelectric{
+    font-size: 50%;
+    border-color: black;
+    
+}  */
+
+body{
+    font-size: 100px;
 }
