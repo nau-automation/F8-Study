@@ -47,3 +47,8 @@ body{
 #jmgpowerelectric{
     width: 1rem;
 }
+/*em= kich thuoc cua the me gan nhat*/
+*{
+    margin: 0;
+    padding: 0;
+}
